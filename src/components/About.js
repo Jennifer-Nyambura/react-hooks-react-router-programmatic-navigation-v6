@@ -1,11 +1,9 @@
-
-
 function About() {
+  
   return (
     <main>
-      <h1>
-        This is my about component!
-      </h1>
+      <h1>About Page</h1>
+      <p>This is a protected page. You can only see it if you’re logged in.</p>
     </main>
   );
 }
